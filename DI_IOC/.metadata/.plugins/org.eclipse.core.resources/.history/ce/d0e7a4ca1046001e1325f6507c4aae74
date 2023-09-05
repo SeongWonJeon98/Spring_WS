@@ -1,0 +1,11 @@
+package Basic;
+
+public class HyundaiMaker {
+	public Car sell(Money money) {
+		System.out.println("현대차(입금)" + money);
+		
+		Car car = new Car("쏘나타");
+		
+		return car;
+	}
+}

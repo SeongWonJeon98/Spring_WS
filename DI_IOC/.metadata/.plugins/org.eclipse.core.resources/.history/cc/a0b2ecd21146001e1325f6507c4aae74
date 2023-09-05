@@ -1,0 +1,11 @@
+package Basic;
+
+public class KiaMaker {
+	public car sell(Money money) {
+		System.out.println("기아차(입금)" + money.getAmount());
+		
+		car car = new car("K5");
+		
+		return car;
+	}
+}
