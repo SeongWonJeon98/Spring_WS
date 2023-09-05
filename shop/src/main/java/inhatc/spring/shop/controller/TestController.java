@@ -13,7 +13,7 @@ public class TestController {
     public PersonDto hello(){
         PersonDto p = new PersonDto();
         p.setAge(10);
-        p.setName("김민");
+        p.setName("김미네");
         log.info("p : " + p);
         return p;
     }
