@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import lombok.*;
 import java.time.LocalDateTime;
 import inhatc.spring.shop.constant.ItemSellStatus;
+import org.springframework.data.annotation.CreatedDate;
 
 @Entity
 @Getter
